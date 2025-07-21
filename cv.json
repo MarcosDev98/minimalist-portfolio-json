@@ -2,7 +2,7 @@
   "basics": {
     "name": "Marcos Aguado",
     "label": "Desarrollador de Software",
-    "image": "/marcos-aguado.jpg",
+    "image": "/me.webp",
     "email": "marcos.aguado1998@gmail.com",
     "phone": "",
     "url": "",
@@ -15,9 +15,14 @@
       "region": "Chubut"
     },
     "profiles": [{
-      "network": "",
-      "username": "",
-      "url": ""
+      "network": "Github",
+      "username": "MarcosDev98",
+      "url": "https://github.com/MarcosDev98"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "Marcos Aguado",
+      "url": "http://linkedin.com/in/marcos-aguado-97b44a1ab/"
     }]
   },
   "work": [{
