@@ -1,21 +1,23 @@
 ---
-import { basics } from '@cv';
-import Section from './Section.astro';
+import { basics } from "@cv"
+import Section from "@/components/sections/Section.astro"
+import Mail from "@/icons/Mail.astro"
+import LinkedIn from "@/icons/LinkedIn.astro"
 import Github from '@/icons/Github.astro';
-import LinkedIn from "@/icons/LinkedIn.astro";
-import Mail from '@/icons/Mail.astro';
-import WorldMap from '@/icons/WorldMap.astro';
+import WorldMap from "@/icons/WorldMap.astro"
 
-
-const { name, label, image, email, phone, url, summary, location, profiles } = basics;
-const { address, postalCode, city, countryCode, region } = location;
+const { name, label, image, location, profiles, phone, email } = basics
+const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
   Github: Github,
   LinkedIn: LinkedIn,
 };
----
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedUrl = linkedInfo?.url
 
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" | ")
+---
 
 <Section>
   <div class="container">
@@ -24,12 +26,15 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h2>{label}</h2>
       <span>
         <WorldMap />
-         {city}, {region}
+        {city}, {region}
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
-            <a 
+            <a
               href={`mailto:${email}`}
               title={`Enviar un correo electrónico a ${name} al correo ${email}`}
               target="_blank"
@@ -40,98 +45,138 @@ const SOCIAL_ICONS: Record<string, any> = {
           )
         }
         {
-          profiles.map(({ network, username, url }) => {
-            const Icon = SOCIAL_ICONS[network];
-            if (!Icon) {
-              console.warn(`No se encontró el ícono para: ${network}`);
-              return null;
-            }
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network]
+
             return (
               <a
                 href={url}
-                title={`Visitar perfil de ${network} de ${name}`}
+                title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Icon />
               </a>
-            );
+            )
           })
         }
       </footer>
     </div>
     <figure>
-      <img src={image} alt="name" />
+      <img src={image} alt={name} />
     </figure>
   </div>
 </Section>
 
 <style>
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  padding-right: 32px;
-}
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+  }
 
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
+  h1 {
+    font-size: 2rem;
+  }
 
-h2 {
-  color: #444;
-  font-weight: 500;
-  font-size: 1.5rem;
-  margin: 0;
-  text-wrap: balance;
-}
+  h2 {
+    color: #444;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+  }
 
-img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  width: 120px;
-  border-radius: 6px;
-}
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
 
-span {
-  color: #666;
-  display: flex;
-  align-items: center;
-  gap: .25rem;
-  font-size: .85rem;
-  letter-spacing: -0.05rem;
-}
+  span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
 
-footer {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 8px;
-}
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
 
-footer a {
-  color: #777;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #eee;
-  padding: 4px;
-  height: 32px;
-  width: 32px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
 
-footer a:hover {
-  background: #eee;
-}
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+
+  .print {
+    display: none !important;
+  }
+
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+  @media print {
+    .print {
+      display: block !important;
+    }
+  }
 </style>

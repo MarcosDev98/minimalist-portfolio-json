@@ -14,106 +14,338 @@
       "countryCode": "AR",
       "region": "Chubut"
     },
-    "profiles": [{
-      "network": "Github",
-      "username": "MarcosDev98",
-      "url": "https://github.com/MarcosDev98"
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "MarcosDev98",
+        "url": "https://github.com/MarcosDev98"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Marcos Aguado",
+        "url": "http://linkedin.com/in/marcos-aguado-97b44a1ab/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Patagonia Software Ltda.",
+      "position": "Desarrollador Full Stack",
+      "url": "",
+      "startDate": "2018-08-01",
+      "endDate": "2019-08-01",
+      "summary": "Trabajé en el desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET.",
+      "highlights": [
+        ""
+      ]
     },
     {
-      "network": "LinkedIn",
-      "username": "Marcos Aguado",
-      "url": "http://linkedin.com/in/marcos-aguado-97b44a1ab/"
-    }]
-  },
-  "work": [{
-    "name": "Patagonia Software Ltda.",
-    "position": "Desarrollador Full Stack",
-    "url": "",
-    "startDate": "2018-08-01",
-    "endDate": "2019-08-01",
-    "summary": "Trabajé en el desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET.",
+      "name": "Freelance",
+      "position": "Desarrollador Full Stack",
+      "url": "",
+      "startDate": "2019-09-01",
+      "endDate": "2021-07-01",
+      "summary": "Trabajé con tecnologías .NET creando soluciones a medida para distintos clientes.",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional de la Patagonia San Juan Bosco",
+      "url": "https://institution.com/",
+      "area": "Analista Programador Universitario",
+      "studyType": "Tecnicatura",
+      "startDate": "2017-01-01",
+      "endDate": "2025-05-30",
+      "score": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "MySQL",
+        "SQL Server",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "ES6",
+        "Async/Await",
+        "DOM",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Type Safety",
+        "Node.js",
+        "Express",
+        "tsconfig"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "Semantic Markup",
+        "Forms",
+        "Accessibility",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": [
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced",
+      "keywords": [
+        "Server-side JavaScript",
+        "Express.js",
+        "npm",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "level": "Advanced",
+      "keywords": [
+        "Routing",
+        "Middleware",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": [
+        "JSX",
+        "Hooks",
+        "Components",
+        "SPA"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Server-side Rendering",
+        "Static Site Generation",
+        "API Routes"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Static Site",
+        "SSG",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containers",
+        "Images",
+        "DevOps",
+        "Virtualization Concepts"
+      ]
+    },
+    {
+      "name": "Git/GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Branches",
+        "Collaboration",
+        "Git Commands"
+      ]
+    },
+    {
+      "name": "MySQL (SQL)",
+      "level": "Intermediate",
+      "keywords": [
+        "Relational Database",
+        "Queries",
+        "Schema Design",
+        "Database Setup"
+      ]
+    },
+    {
+      "name": "Cucumber/BDD",
+      "level": "Intermediate",
+      "keywords": [
+        "Behavior-driven Development",
+        "Gherkin Syntax",
+        "Testing"
+      ]
+    },
+    {
+      "name": "REST API",
+      "level": "Intermediate",
+      "keywords": [
+        "HTTP",
+        "Endpoints",
+        "CRUD",
+        "API Design"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "CSS Framework",
+        "Grid System",
+        "Responsive Layouts"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Shell Commands",
+        "Permissions",
+        "Ubuntu"
+      ]
+    },
+    {
+      "name": "Virtualization",
+      "level": "Intermediate",
+      "keywords": [
+        "VM",
+        "Docker vs VM",
+        "Hardware Abstraction"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Técnico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "projects": [
+  {
+    "name": "Desafío Fullstack Alkemy (Alkemy Fullstack JS Challenge)",
+    "startDate": "2022-02-08",
+    "endDate": "2022-03-29",
+    "description": "Proyecto fullstack desarrollado para el desafío de Alkemy. Incluye un frontend en React y un backend en Node.js que cumple los requisitos del reto.",
     "highlights": [
-      ""
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universidad Nacional de la Patagonia San Juan Bosco",
-    "url": "https://institution.com/",
-    "area": "Analista Programador Universitario",
-    "studyType": "Tecnicatura",
-    "startDate": "2017-01-01",
-    "endDate": "2025-05-30",
-    "score": "",
-    "courses": [
-      ""
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "Español",
-    "fluency": "Nativo"
+      "Frontend en React que consume la API del backend",
+      "API REST construida con Node.js y Express",
+      "Base de datos relacional (MySQL) para persistencia de usuarios y transacciones",
+      "Autenticación de usuarios mediante JSON Web Tokens (JWT)",
+      "Operaciones CRUD completas para gestión de transacciones financieras"
+    ],
+    "url": "https://github.com/MarcosDev98/alkemy-challenge",
+    "isActive": false,
+    "github": "https://github.com/MarcosDev98/alkemy-challenge"
   },
   {
-    "language": "Inglés",
-    "fluency": "Técnico"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+    "name": "Backend del desafío Alkemy",
+    "startDate": "2022-02-08",
+    "endDate": "2022-03-29",
+    "description": "Servidor backend implementado en Node.js con Express para el desafío de Alkemy. Gestiona la lógica de negocio (usuarios, transacciones) y expone una API REST consumida por el frontend.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "API REST en Node.js/Express con estructura modular de controladores",
+      "Base de datos MySQL con tablas para usuarios, transacciones y tipos",
+      "Implementación de autenticación con JWT y middleware de verificación",
+      "Manejo de errores y validaciones en los endpoints"
     ],
-    "url": "https://project.com/"
-  }]
+    "url": "https://github.com/MarcosDev98/backend-alkemy",
+    "isActive": false,
+    "github": "https://github.com/MarcosDev98/backend-alkemy"
+  },
+  {
+    "name": "Backend Node.js con TypeScript",
+    "startDate": "2022-04-18",
+    "endDate": "2022-04-20",
+    "description": "Servidor básico de backend desarrollado con Node.js, Express y TypeScript. Diseñado como ejercicio de aprendizaje para configurar un proyecto en TypeScript en el servidor.",
+    "highlights": [
+      "API REST simple con Node.js y Express escrita en TypeScript",
+      "Configuración de TypeScript (tsconfig) para el entorno de servidor",
+      "Uso de ts-node-dev para recarga automática durante el desarrollo",
+      "Aplicación de tipado estático y buenas prácticas de codificación"
+    ],
+    "url": "https://github.com/MarcosDev98/backend-typescript",
+    "isActive": false,
+    "github": "https://github.com/MarcosDev98/backend-typescript"
+  },
+  {
+    "name": "Portafolio minimalista configurable",
+    "startDate": "2025-07-11",
+    "endDate": "2025-07-21",
+    "description": "Sitio web de portafolio personal estático construido con Astro. El contenido se configura mediante un archivo JSON (basado en JSON Resume), permitiendo generar el portafolio desde datos estructurados.",
+    "highlights": [
+      "Contenido del portafolio definido por un archivo JSON (JSON Resume schema)",
+      "Generado con Astro para un sitio estático de alto rendimiento",
+      "Diseño minimalista responsive con secciones personalizables (Hero, About, Skills, etc.)",
+      "Optimización de imágenes y uso de WebP para mejorar carga"
+    ],
+    "url": "https://github.com/MarcosDev98/minimalist-portfolio-json",
+    "isActive": true,
+    "github": "https://github.com/MarcosDev98/minimalist-portfolio-json"
+  },
+  {
+    "name": "Aplicación de Cómics con Next.js",
+    "startDate": "2022-09-04",
+    "endDate": "2023-03-13",
+    "description": "Aplicación web desarrollada con Next.js para explorar cómics. Recupera datos de una API de cómics para mostrar galerías de portadas con paginación.",
+    "highlights": [
+      "Construida con Next.js usando Server-Side Rendering y generación estática",
+      "Consumo de API pública de cómics para obtener información e imágenes",
+      "Diseño en cuadrícula tipo Masonry adaptativa",
+      "Paginación con botones de siguiente/anterior para navegar por páginas de cómics",
+      "Optimización de imágenes (WebP) para mejorar performance"
+    ],
+    "url": "https://github.com/MarcosDev98/comics-app",
+    "isActive": false,
+    "github": "https://github.com/MarcosDev98/comics-app"
+  }
+]
 }
