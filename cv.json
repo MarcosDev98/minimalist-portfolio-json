@@ -6,10 +6,10 @@
     "email": "marcos.aguado1998@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "+3 años de experiencia como Desarrollador de Softwar trabajando experiencia en el desarrollo de aplicaciones web y de escritorio.",
+    "summary": "Desarrollador de software con experiencia en el desarrollo de aplicaciones web y de escritorio. Especializado en tecnologías .NET, JavaScript y SQL, con conocimientos en frameworks modernos y prácticas de desarrollo eficientes. ",
     "location": {
       "address": "",
-      "postalCode": "9200",
+      "postalCode": "U9200",
       "city": "Esquel",
       "countryCode": "AR",
       "region": "Chubut"
@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2018-08-01",
       "endDate": "2019-08-01",
-      "summary": "Trabajé en el desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET.",
+      "summary": "Trabajé en el diseño y desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET.",
       "highlights": [
         ""
       ]
@@ -54,9 +54,9 @@
   "education": [
     {
       "institution": "Universidad Nacional de la Patagonia San Juan Bosco",
-      "url": "https://institution.com/",
+      "url": "",
       "area": "Analista Programador Universitario",
-      "studyType": "Tecnicatura",
+      "studyType": "Universitario",
       "startDate": "2017-01-01",
       "endDate": "2025-05-30",
       "score": "",
@@ -194,16 +194,6 @@
       ]
     },
     {
-      "name": "MySQL (SQL)",
-      "level": "Intermediate",
-      "keywords": [
-        "Relational Database",
-        "Queries",
-        "Schema Design",
-        "Database Setup"
-      ]
-    },
-    {
       "name": "Cucumber/BDD",
       "level": "Intermediate",
       "keywords": [
@@ -237,16 +227,8 @@
       "keywords": [
         "Shell Commands",
         "Permissions",
-        "Ubuntu"
-      ]
-    },
-    {
-      "name": "Virtualization",
-      "level": "Intermediate",
-      "keywords": [
-        "VM",
-        "Docker vs VM",
-        "Hardware Abstraction"
+        "Debian",
+        "Arch"
       ]
     }
   ],
@@ -262,10 +244,9 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        ""
       ]
     }
   ],
@@ -302,21 +283,6 @@
     "github": "https://github.com/MarcosDev98/backend-alkemy"
   },
   {
-    "name": "Backend Node.js con TypeScript",
-    "startDate": "2022-04-18",
-    "endDate": "2022-04-20",
-    "description": "Servidor básico de backend desarrollado con Node.js, Express y TypeScript. Diseñado como ejercicio de aprendizaje para configurar un proyecto en TypeScript en el servidor.",
-    "highlights": [
-      "API REST simple con Node.js y Express escrita en TypeScript",
-      "Configuración de TypeScript (tsconfig) para el entorno de servidor",
-      "Uso de ts-node-dev para recarga automática durante el desarrollo",
-      "Aplicación de tipado estático y buenas prácticas de codificación"
-    ],
-    "url": "https://github.com/MarcosDev98/backend-typescript",
-    "isActive": false,
-    "github": "https://github.com/MarcosDev98/backend-typescript"
-  },
-  {
     "name": "Portafolio minimalista configurable",
     "startDate": "2025-07-11",
     "endDate": "2025-07-21",
@@ -330,22 +296,6 @@
     "url": "https://github.com/MarcosDev98/minimalist-portfolio-json",
     "isActive": true,
     "github": "https://github.com/MarcosDev98/minimalist-portfolio-json"
-  },
-  {
-    "name": "Aplicación de Cómics con Next.js",
-    "startDate": "2022-09-04",
-    "endDate": "2023-03-13",
-    "description": "Aplicación web desarrollada con Next.js para explorar cómics. Recupera datos de una API de cómics para mostrar galerías de portadas con paginación.",
-    "highlights": [
-      "Construida con Next.js usando Server-Side Rendering y generación estática",
-      "Consumo de API pública de cómics para obtener información e imágenes",
-      "Diseño en cuadrícula tipo Masonry adaptativa",
-      "Paginación con botones de siguiente/anterior para navegar por páginas de cómics",
-      "Optimización de imágenes (WebP) para mejorar performance"
-    ],
-    "url": "https://github.com/MarcosDev98/comics-app",
-    "isActive": false,
-    "github": "https://github.com/MarcosDev98/comics-app"
   }
 ]
 }
