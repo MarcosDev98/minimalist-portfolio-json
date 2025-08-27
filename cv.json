@@ -34,9 +34,11 @@
       "url": "",
       "startDate": "2018-08-01",
       "endDate": "2019-08-01",
-      "summary": "Trabajé en el diseño y desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET.",
+      "summary": "Trabajé en el diseño y desarrollo de distintos módulos de un sistema ERP para empresas y municipios utilizando tecnologías .NET y SQL Server.",
       "highlights": [
-        ""
+        "Diseñé e implementé módulos para sistemas ERP utilizados en empresas y municipios.",
+        "Participé en todo el ciclo de vida del software: análisis, desarrollo, testing y mantenimiento",
+        "Trabajé con tecnologías como VB.NET y SQL Server para sistemas administrativos complejos."
       ]
     },
     {
@@ -44,10 +46,14 @@
       "position": "Desarrollador Full Stack",
       "url": "",
       "startDate": "2019-09-01",
-      "endDate": "2021-07-01",
-      "summary": "Trabajé con tecnologías .NET creando soluciones a medida para distintos clientes.",
+      "endDate": "2024-07-01",
+      "summary": "Trabajé con distintas tecnologías creando soluciones a medida para distintos clientes.",
       "highlights": [
-        ""
+        "Desarrollé sistemas para control de producción, stock y gestión de accesos.",
+        "Coordiné entrevistas con usuarios para relevar requerimientos y optimizar procesos.",
+        "Diseñé bases de datos relacionales y soluciones con arquitectura en tres capas.",
+        "Apliqué tecnologías .NET y metodologías de desarrollo colaborativo."
+
       ]
     }
   ],
@@ -57,7 +63,7 @@
       "url": "",
       "area": "Analista Programador Universitario",
       "studyType": "Universitario",
-      "startDate": "2017-01-01",
+      "startDate": "2017-03-01",
       "endDate": "2025-05-30",
       "score": "",
       "courses": [
